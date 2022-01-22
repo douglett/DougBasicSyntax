@@ -37,7 +37,7 @@ contexts:
       scope: keyword.control.dbasic
 
     # Statement Keywords
-    - match: '\b(let|local|dim|redim|call|print|input|push|pop)\b'
+    - match: '\b(let|local|dim|redim|call|print|input|push|pop|len)\b'
       # scope: entity.name .keycommand.dbasic # green
       scope: storage.type.keycommand.dbasic  # blue
 
