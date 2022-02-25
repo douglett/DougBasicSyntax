@@ -33,11 +33,11 @@ contexts:
       push: function_definition
 
     # Regular Keywords
-    - match: '(?i)\b(if|else|end|for|while|function|type|return|die|break|continue|to)\b'
+    - match: '(?i)\b(type|function|end|if|else|while|for|break|continue|to|step)\b'
       scope: keyword.control.dbasic
 
     # Statement Keywords
-    - match: '\b(let|local|dim|redim|call|print|input|push|pop|len)\b'
+    - match: '\b(dim|redim|let|call|print|input)\b'
       # scope: entity.name .keycommand.dbasic # green
       scope: storage.type.keycommand.dbasic  # blue
 
