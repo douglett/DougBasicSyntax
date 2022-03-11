@@ -33,7 +33,7 @@ contexts:
       push: function_definition
 
     # Regular Keywords
-    - match: '(?i)\b(type|function|end|if|else|while|for|break|continue|to|step)\b'
+    - match: '(?i)\b(type|function|end|if|else|while|for|return|break|continue|to|step)\b'
       scope: keyword.control.dbasic
 
     # Statement Keywords
