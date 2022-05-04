@@ -33,7 +33,7 @@ contexts:
       push: function_definition
 
     # Regular Keywords
-    - match: '(?i)\b(type|function|end|if|else|while|for|return|break|continue|to|step)\b'
+    - match: '(?i)\b(module|type|function|end|if|else|while|for|return|break|continue|to|step)\b'
       scope: keyword.control.dbasic
 
     # Statement Keywords
@@ -50,7 +50,7 @@ contexts:
       scope: constant.language.dbasic
 
     # Function call
-    - match: '\b{{ident}}(?=\()\b'
+    - match: '\b({{ident}}:)?{{ident}}(?=\()\b'
       scope: variable.function.dbasic
       # scope: meta.function-call.dbasic
 
